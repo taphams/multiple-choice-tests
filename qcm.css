@@ -1,0 +1,100 @@
+body, fieldset, p, .libelle{
+  font-family: Helvetica, serif;
+  font-size: 14px;
+  line-height: 1.4em;
+  font-weight: normal;
+   margin: 2px;
+  padding: 4px;
+}
+.libelle{
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+#qcm{
+  width: 730px;
+  margin: 6px;
+  padding: 6px;
+}
+.instructions, .infosetudiant{
+  display: block;
+  width: 280px;
+  margin: 6px;
+  padding: 6px;
+}
+.instructions{
+  float: left;
+}
+.infosetudiant{
+  float: right;
+}
+fieldset{ 
+  width: 720px;
+  border-radius: 6px;
+  border: 1px solid #00baff;
+}
+#aside{
+  width: 200px;
+  float: right;
+   margin: 6px;
+  padding: 6px;
+}
+#content{
+  width: 770px;
+   margin: 6px;
+  padding: 6px;
+
+}
+
+
+.instructions, #aside, .infosetudiant{
+  background: #2ed487;
+  border: 1px solid black;
+}
+.infosqcm{
+  width: 30px;
+  float: right;
+padding: 4px;
+border: 1px solid black;
+  border-radius: 2px;
+  background: #2ed487;
+  
+}
+#notes{
+  width: 40px;
+ float: right;
+padding: 4px;
+border: 1px solid black;
+  border-radius: 2px;
+  color: #ff3c00;
+  
+}
+#correction{
+  width: 600px;
+  margin: 6px;
+  padding: 6px;
+  border-radius: 2px;
+  border: 1px solid black;
+  clear: both;
+
+}
+#wrpper, body{
+  width: 1020px;
+  margin: auto;
+  background: #e5eff1;
+}
+dd{
+  color: #0066ff;
+}
+a, a:visited{
+  color: black;
+}
+#correction a{
+  padding: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  border-radius: 6px;
+  background: #00baff;
+}

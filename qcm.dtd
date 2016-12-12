@@ -1,0 +1,16 @@
+<!ELEMENT qcm (idfqcm, titre, date, instructions, aide, auteur, module, urleleve, correction, questions)>
+<!ELEMENT idfqcm (#PCDATA)>
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT instructions (#PCDATA)>
+<!ELEMENT aide (#PCDATA)>
+<!ELEMENT auteur (#PCDATA)>
+<!ELEMENT module (#PCDATA)>
+<!ELEMENT urleleve (#PCDATA)>
+<!ELEMENT correction (#PCDATA)>
+<!ELEMENT questions (question+)>
+<!ELEMENT question (libelle, (reponseko|reponseok|reponse)*)>
+<!ELEMENT libelle (#PCDATA)>
+<!ELEMENT reponse (#PCDATA)>
+<!ELEMENT reponseko (#PCDATA)>
+<!ELEMENT reponseok (#PCDATA)>
